@@ -90,5 +90,5 @@ production:
   <<: *default
   encoding: unicode
   database: instro_production
-  username: instro
+  username: martin
   password: <%= ENV['INSTRO_DATABASE_PASSWORD'] %>
